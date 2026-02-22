@@ -1,11 +1,11 @@
 {
-    "name": "focal/db",
+    "name": "probe/database",
     "description": "Database Facade bundled with a query builder and Database Control Interface",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Focal\\": "src/"
+            "Probe\\": "/"
         }
     },
     "authors": [
