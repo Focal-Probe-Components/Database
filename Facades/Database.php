@@ -1,11 +1,11 @@
 <?php
-namespace Focal\Facades;
+namespace Probe\Support\Facades;
 
-use Focal\Core\DBController;
 use PatrykNamyslak\Patbase\Enums\DatabaseDriver;
 use PatrykNamyslak\Patbase\Facades\DB as PatbaseDBFacade;
+use Probe\Support\Database\DBController;
 
-class DB extends PatbaseDBFacade{
+class Database extends PatbaseDBFacade{
 
     /**
      * Create a new instance of the Database connection interface (Patbase).

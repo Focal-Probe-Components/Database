@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c4925020d1654c4953976f21d83194a",
+    "content-hash": "5bf9628800b21fb51a76919667d078f2",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -70,16 +70,16 @@
         },
         {
             "name": "patryknamyslak/patbase",
-            "version": "v2.2",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PatrykNamyslak/PatBase.git",
-                "reference": "b53d28147ffce82b941e12b4be7fd7e5d268a4f3"
+                "reference": "0d10484397cb30eea9602322cf724e8220df7c95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PatrykNamyslak/PatBase/zipball/b53d28147ffce82b941e12b4be7fd7e5d268a4f3",
-                "reference": "b53d28147ffce82b941e12b4be7fd7e5d268a4f3",
+                "url": "https://api.github.com/repos/PatrykNamyslak/PatBase/zipball/0d10484397cb30eea9602322cf724e8220df7c95",
+                "reference": "0d10484397cb30eea9602322cf724e8220df7c95",
                 "shasum": ""
             },
             "require": {
@@ -89,6 +89,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
+                    "PatrykNamyslak\\": "src/",
                     "PatrykNamyslak\\Patbase\\": "src/"
                 }
             },
@@ -104,9 +105,9 @@
             "description": "A highly configurable DB facade and Database interaction interface (Patbase)",
             "support": {
                 "issues": "https://github.com/PatrykNamyslak/PatBase/issues",
-                "source": "https://github.com/PatrykNamyslak/PatBase/tree/v2.2"
+                "source": "https://github.com/PatrykNamyslak/PatBase/tree/v2.2.1"
             },
-            "time": "2026-02-19T00:54:49+00:00"
+            "time": "2026-03-01T23:32:43+00:00"
         },
         {
             "name": "phpoption/phpoption",

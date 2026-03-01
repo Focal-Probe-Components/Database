@@ -1,5 +1,5 @@
 <?php
-namespace Focal\Core;
+namespace Probe\Support;
 
 use PatrykNamyslak\Patbase;
 
